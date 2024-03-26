@@ -4,7 +4,7 @@ const queries = require('./queries')
 
 const myapp = express()
 
-const port = 8080
+const port = 80
 
 myapp.use(bodyParser.json())
 myapp.use(
